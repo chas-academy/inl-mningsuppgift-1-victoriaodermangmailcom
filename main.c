@@ -24,23 +24,23 @@ int main()
             one++;
         }
 
-        if (dice_rolls[i] ==1){
+        if (dice_rolls[i] ==2){
             two++;
         }
         
-        if (dice_rolls[i] ==1){
+        if (dice_rolls[i] ==3){
             three++;
         }
         
-        if (dice_rolls[i] ==1){
+        if (dice_rolls[i] ==4){
             four++;
         }
         
-        if (dice_rolls[i] ==1){
+        if (dice_rolls[i] ==5){
             five++;
         }
         
-        if (dice_rolls[i] ==1){
+        if (dice_rolls[i] ==6){
             six++;
         }
     }
