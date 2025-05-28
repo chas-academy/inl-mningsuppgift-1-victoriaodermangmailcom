@@ -11,7 +11,39 @@ int main()
         //check for rolls
         printf("roll %d\n", dice_rolls[i]);
     }
+    int one = 0;
+    int two = 0;
+    int three = 0;
+    int four = 0;
+    int five = 0;
+    int six = 0;
+    int sum = 0;
 
+    for (int i = 0; i<100; i++){
+        if (dice_rolls[i] ==1){
+            one++;
+        }
+
+        if (dice_rolls[i] ==1){
+            two++;
+        }
+        
+        if (dice_rolls[i] ==1){
+            three++;
+        }
+        
+        if (dice_rolls[i] ==1){
+            four++;
+        }
+        
+        if (dice_rolls[i] ==1){
+            five++;
+        }
+        
+        if (dice_rolls[i] ==1){
+            six++;
+        }
+    }
    
     // Your code goes here
 
